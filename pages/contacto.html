@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo"><a class="logo" href="../index.html">LOGO</a></div>
+
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="titulo-contacto text-primary">Contactanos</h1>
+
+      <form
+        class="form-contacto"
+        action="https://formspree.io/f/mvzdglbg"
+        method="POST"
+      >
+        <div class="grupo-input">
+          <label for="email"> Tu email: </label>
+          <input id="email" type="email" name="email" />
+        </div>
+        <div class="grupo-input">
+          <label for="mensaje"> Dejanos tu mensaje: </label>
+          <textarea id="mensaje" name="message"></textarea>
+        </div>
+        <!-- your other form fields go here -->
+        <button class="btn bg-secondary text-dark" type="submit">Enviar</button>
+      </form>
+    </main>
+    <footer>
+      <p>Sitio realizado por Axel Blanco para la preentrega de Talento Tech</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="../img/whatsapp.png" alt="logo de whatsapp" /></li>
+          <li><img src="../img/instagram.png" alt="logo de instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
