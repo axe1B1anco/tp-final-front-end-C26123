@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "nombre": "Auto 1",
+    "precio": 15000,
+    "img": "img/auto1.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Auto 2",
+    "precio": 17300,
+    "img": "img/auto2.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Auto 3",
+    "precio": 13500,
+    "img": "img/auto3.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Auto 4",
+    "precio": 16000,
+    "img": "img/auto4.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "Auto 5",
+    "precio": 17500,
+    "img": "img/auto5.jpg"
+  },
+  {
+    "id": "6",
+    "nombre": "Auto 6",
+    "precio": 16000,
+    "img": "img/auto6.jpg"
+  }
+]

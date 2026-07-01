@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
-
   <body>
     <header>
       <div class="div-logo"><a class="logo" href="./index.html">LOGO</a></div>
@@ -24,6 +23,12 @@
           <li>
             <a href="./pages/contacto.html">Contacto</a>
           </li>
+          <!-- Agregar un link al carrito, con un ID para el contador -->
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0 </span></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -34,56 +39,13 @@
         Esta tienda solo comercializa autos antiguos con estilo Rat Road o Hot
         Road.
       </p>
+
       <section>
         <h2 class="titulo-prductos">Nuestros productos</h2>
-        <div class="contenedor-tarjetas">
-          <article class="card text-dark">
-            <img src="./img/auto1.jpg" alt="Auto 1" />
-            <h3>Auto 1</h3>
-            <p>El clasico</p>
-            <p>Precio: U$D 15.000</p>
-            <button class="btn bg-primary text-dark">Agregar al carrito</button>
-          </article>
 
-          <article class="card text-dark">
-            <img src="./img/auto2.jpg" alt="Auto 2" />
-            <h3>Auto 2</h3>
-            <p>El que buscas</p>
-            <p>Precio: U$D 17.300</p>
-            <button class="btn bg-primary text-dark">Agregar al carrito</button>
-          </article>
-
-          <article class="card text-dark">
-            <img src="./img/auto3.jpg" alt="Auto 3" />
-            <h3>Auto 3</h3>
-            <p>El Solteron</p>
-            <p>Precio: U$D13.500</p>
-            <button class="btn bg-primary text-dark">Agregar al carrito</button>
-          </article>
-
-          <article class="card text-dark">
-            <img src="./img/auto4.jpg" alt="Auto 4" />
-            <h3>Auto 4</h3>
-            <p>El desobediente</p>
-            <p>Precio: U$D 16.000</p>
-            <button class="btn bg-primary text-dark">Agregar al carrito</button>
-          </article>
-
-          <article class="card text-dark">
-            <img src="./img/auto5.jpg" alt="Auto 5" />
-            <h3>Auto 4</h3>
-            <p>De pelicula</p>
-            <p>Precio: U$D 17.500.000</p>
-            <button class="btn bg-primary text-dark">Agregar al carrito</button>
-          </article>
-
-          <article class="card text-dark">
-            <img src="./img/auto6.jpg" alt="Auto 6" />
-            <h3>Auto 6</h3>
-            <p>Solo en sueñoss</p>
-            <p>Precio: U$D 16.000</p>
-            <button class="btn bg-primary text-dark">Agregar al carrito</button>
-          </article>
+        <!-- Agregar un ID al div, ahora lo necesitamos -->
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+          <!-- Tarjetas -->
         </div>
       </section>
     </main>
@@ -96,5 +58,7 @@
         </ul>
       </nav>
     </footer>
+    <!-- Agregar type module y enlace al index.js -->
+    <script src="./js/index.js" type="module"></script>
   </body>
 </html>
