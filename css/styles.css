@@ -21,7 +21,7 @@ body {
 main {
   width: 80%;
   margin: auto;
-  padding-bottom: 2rem;
+  padding-bottom: 8rem;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,15 @@ h2 {
   background-color: #fcd5a8;
 }
 
-header,
+header {
+  background: #fcd5a8;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer {
   background: #fcd5a8;
   color: black;
@@ -64,19 +72,28 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
+.logo img {
+  height: 7rem;
+  width: auto;
+  display: block;
+}
 
 .div-logo {
   margin-left: 2rem;
   font-weight: bold;
 }
 
-.logo,
 .header-nav ul li a {
   text-decoration: none;
   font-size: 2rem;
   color: inherit;
   display: inline-block;
-  padding: 2rem;
+  padding: 1.5rem;
+}
+
+.logo {
+  display: inline-block;
+  padding: 1rem 0;
 }
 
 .header-nav ul,
